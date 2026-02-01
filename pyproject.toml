@@ -1,0 +1,20 @@
+[project]
+name = "cli-lyrics"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+  "numpy>=1.26",
+  "scipy",
+  "soundfile",
+  "sounddevice",
+  "yt-dlp",
+  "rich",
+  "pillow",
+  "requests",
+  "climage>=0.2.2",
+  "terminal-img>=0.0.3",
+  "term-image>=0.7.2",
+  "terminaltexteffects>=0.14.2",
+]
